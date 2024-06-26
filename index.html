@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-main">
+            <h1 id="city">City</h1>
+            <p id="description">Description</p>
+            <div class="weather-temp">
+                <span class="temp" id="temperature">0°</span>
+                <img id="weather-icon" src="" alt="Weather Icon">
+            </div>
+        </div>
+        <div class="weather-forecast" id="forecast"></div>
+        <div class="air-conditions">
+            <div class="condition">
+                <p>Real Feel: <span id="real-feel">0°</span></p>
+                <p>Wind: <span id="wind-speed">0 km/h</span></p>
+                <p>Chance of rain: <span id="chance-of-rain">0%</span></p>
+                <p>UV Index: <span id="uv-index">0</span></p>
+            </div>
+        </div>
+        <div class="more">
+            <button id="getWeatherBtn">Get Weather</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
